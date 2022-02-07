@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "special-list": "/components/special-list/special-list",
+    "music-controller": "/components/music-controller/music-controller"
+  }
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.result-page-container {
+  position: relative;
+}
+.result-page-container > .page-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-page-container > .page-nav > view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-page-container > .page-nav > view:first-child {
+  width: 30px;
+}
+.result-page-container > .page-nav > view:last-child {
+  flex: 1;
+  position: relative;
+}
+

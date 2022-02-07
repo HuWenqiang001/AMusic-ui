@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3113744 */
+  src: url('@/static/icon/iconfont.woff2?t=1641266343861') format('woff2'),
+       url('@/static/icon/iconfont.woff?t=1641266343861') format('woff'),
+       url('@/static/icon/iconfont.ttf?t=1641266343861') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zanting:before {
+  content: "\e693";
+}
+
+.icon-24gl-playlistMusic4:before {
+  content: "\ea72";
+}
+
+.icon-24gf-playlistMusic4:before {
+  content: "\ea86";
+}
+
+.icon-bofang1:before {
+  content: "\e889";
+}
+
+.icon-Pause:before {
+  content: "\e625";
+}
+
+.icon-androidgengduo:before {
+  content: "\e78d";
+}
+
+.icon-changpian:before {
+  content: "\e607";
+}
+
+.icon-vodshipindianbo:before {
+  content: "\e8b4";
+}
+
+.icon-tengxunshipin:before {
+  content: "\e636";
+}
+
+.icon-tengxunshipin1:before {
+  content: "\e652";
+}
+
+.icon-changpianji:before {
+  content: "\e616";
+}
+
+.icon-bofang:before {
+  content: "\e66a";
+}
+

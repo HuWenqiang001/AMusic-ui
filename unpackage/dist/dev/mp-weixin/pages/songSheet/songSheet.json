@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "transparentTitle": "auto",
+  "usingComponents": {
+    "u-notify": "/node-modules/uview-ui/components/u-notify/u-notify",
+    "u-skeleton": "/node-modules/uview-ui/components/u-skeleton/u-skeleton",
+    "music-controller": "/components/music-controller/music-controller"
+  }
+}

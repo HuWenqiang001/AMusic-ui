@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/songSheet/songSheet",
+    "pages/myPage/myPage"
+  ],
+  "subPackages": [
+    {
+      "root": "seachPage",
+      "pages": [
+        "seachIndex/seachIndex",
+        "seachResult/seachResult"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#606266",
+    "selectedColor": "#007AFF",
+    "blurEffect": "extralight",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/index.png",
+        "selectedIconPath": "static/tabBar/indexChecked.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/myPage/myPage",
+        "iconPath": "static/tabBar/myPage.png",
+        "selectedIconPath": "static/tabBar/myChecked.png"
+      }
+    ]
+  },
+  "preloadRule": {},
+  "usingComponents": {}
+}

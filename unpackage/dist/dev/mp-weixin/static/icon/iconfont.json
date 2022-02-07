@@ -1,0 +1,107 @@
+{
+  "id": "3113744",
+  "name": "AMuice",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1646235",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "9828793",
+      "name": "我的",
+      "font_class": "ziyuan",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "7156146",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "7594061",
+      "name": "24gl-playlistMusic4",
+      "font_class": "24gl-playlistMusic4",
+      "unicode": "ea72",
+      "unicode_decimal": 60018
+    },
+    {
+      "icon_id": "7594168",
+      "name": "24gf-playlistMusic4",
+      "font_class": "24gf-playlistMusic4",
+      "unicode": "ea86",
+      "unicode_decimal": 60038
+    },
+    {
+      "icon_id": "7698979",
+      "name": "播放",
+      "font_class": "bofang1",
+      "unicode": "e889",
+      "unicode_decimal": 59529
+    },
+    {
+      "icon_id": "26850192",
+      "name": "暂停",
+      "font_class": "Pause",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "579920",
+      "name": "Android更多",
+      "font_class": "androidgengduo",
+      "unicode": "e78d",
+      "unicode_decimal": 59277
+    },
+    {
+      "icon_id": "1488894",
+      "name": "唱片",
+      "font_class": "changpian",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "5583429",
+      "name": "vod 视频点播",
+      "font_class": "vodshipindianbo",
+      "unicode": "e8b4",
+      "unicode_decimal": 59572
+    },
+    {
+      "icon_id": "5950874",
+      "name": "腾讯视频",
+      "font_class": "tengxunshipin",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "8356571",
+      "name": "腾讯视频1",
+      "font_class": "tengxunshipin1",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "23995114",
+      "name": "唱片机",
+      "font_class": "changpianji",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "444564",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    }
+  ]
+}

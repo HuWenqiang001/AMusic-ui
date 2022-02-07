@@ -1,0 +1,134 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/songSheet/songSheet",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"transparentTitle": "auto",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"animationDuration": 300
+				}
+			}
+
+		}, {
+			"path": "pages/myPage/myPage",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/play/play",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"transparentTitle": "auto",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"animationDuration": 300,
+					"background": "#efeff4",
+					"titleNView": false
+				}
+            }
+            
+        }
+    ],
+	"subPackages": [{ //分包加载
+		"root": "seachPage",
+		"pages": [{
+			"path": "seachIndex/seachIndex",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"transparentTitle": "auto",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"animationDuration": 300,
+					"background": "#efeff4",
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "seachResult/seachResult",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"transparentTitle": "auto",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"animationDuration": 300,
+					"background": "#efeff4",
+					"titleNView": false
+				}
+			}
+
+		}]
+	},{
+		"root": "webPage",
+		"pages": [{
+			"path": "webViewPage/webViewPage",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"transparentTitle": "none",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"animationDuration": 300,
+					"background": "#efeff4"
+				}
+			}
+		}]
+	}],
+
+	"preloadRule": {
+
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4",
+			"titleNView": {
+				// "type": "transparent", //透明渐变导航栏 App-nvue 2.4.4+ 支持
+				"searchInput": {
+					"backgroundColor": "#fff",
+					"borderRadius": "25px", //输入框圆角
+					"placeholder": "请输入搜索内容",
+					"disabled": true ,//disable时点击输入框不置焦，可以跳到新页面搜索
+					"placeholderColor":"#b1b1b1"
+				}
+			}
+		}
+	},
+	"tabBar": {
+		"color": "#606266",
+		"selectedColor": "#007AFF",
+		"blurEffect": "extralight",
+		"list": [{
+			"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabBar/index.png",
+			"selectedIconPath": "static/tabBar/indexChecked.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/myPage/myPage",
+			"iconPath": "static/tabBar/myPage.png",
+			"selectedIconPath": "static/tabBar/myChecked.png"
+		}]
+
+	}
+}

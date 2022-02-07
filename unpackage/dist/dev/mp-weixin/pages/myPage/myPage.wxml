@@ -1,0 +1,1 @@
+<view><music-controller class="vue-ref" style="z-index:999;" vue-id="74acdc60-1" data-ref="musicController" bind:__l="__l"></music-controller></view>
